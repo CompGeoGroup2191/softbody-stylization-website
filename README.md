@@ -10,6 +10,8 @@ npm install
 npm run serve
 ```
 
+Access the webapp at http://localhost:8080/softbody-stylization-website/#/
+
 ### Compiles and minifies for production
 ```
 npm run build
