@@ -5,6 +5,8 @@
         <v-card :width="width" style="margin: 6px 5px" >
           <v-img :src="require(`../assets/${image}`)" :height="height" :width="width" :gradient="gradient">
             <v-card-title style="color: white">{{title}}</v-card-title>
+            <div style="color: white; margin: 0 16px">{{subtitle}}</div>
+            <div class="title" style="position: absolute; bottom: 0; right: 0; margin: 5px">{{date}}</div>
           </v-img>
 
           <v-card-text> {{content}}</v-card-text>
@@ -24,7 +26,7 @@ export default {
       
     };
   },
-  props: ['id', 'title', 'subtitle', 'content', 'image', 'gradient', 'width', 'height']
+  props: ['id', 'title', 'subtitle', 'content', 'image', 'date', 'gradient', 'width', 'height']
 };
 </script>
 

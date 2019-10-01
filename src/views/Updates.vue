@@ -3,7 +3,7 @@
     <div class="display-3 center-title">Updates</div>
     <div class="link-container">
       <div v-for="u of updates">
-        <update-card :id="u.id" :title="u.title" :subtitle="u.title" :content="u.content" :image="u.image"
+        <update-card :id="u.id" :title="u.title" :subtitle="u.subtitle" :content="u.content" :image="u.image" :date="u.date"
           :gradient="`to top, rgba(100,115,201,.1), ${u.color}`" :height="250" :width="460"/>
       </div>
     </div>
