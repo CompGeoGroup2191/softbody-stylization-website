@@ -47,16 +47,6 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* .clickable-card:after:hover {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  background: rgb(0, 0, 0, 0.3);
-  left: 0;
-  top: 0;
-} */
 .clickable-card {
   filter: none;
   -webkit-transition: all 0.5s;
