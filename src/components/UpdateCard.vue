@@ -1,16 +1,16 @@
 <template>
   <div>
-    <a href="www.google.com" style="text-decoration: none;">
+    <router-link :to="`updates/${id}`" style="text-decoration: none;">
       <div class="clickable-card anim-border">
-        <v-card max-width="260" style="margin: 6px" >
-          <v-img src="https://placekitten.com/400/600" height="450px" max-width="260px">
+        <v-card :width="width" style="margin: 6px 5px" >
+          <v-img :src="require(`../assets/${image}`)" :height="height" :width="width" :gradient="gradient">
             <v-card-title style="color: white">{{title}}</v-card-title>
           </v-img>
 
           <v-card-text> {{content}}</v-card-text>
         </v-card>
       </div>
-    </a>
+    </router-link>
 
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
       
     };
   },
-  props: ['title', 'subtitle', 'content', 'image']
+  props: ['id', 'title', 'subtitle', 'content', 'image', 'gradient', 'width', 'height']
 };
 </script>
 
