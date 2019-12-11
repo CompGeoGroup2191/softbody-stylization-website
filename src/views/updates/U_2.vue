@@ -5,6 +5,15 @@
 
 
     <div class="update-text">
+      <div class="headline font-weight-regular">Links</div>
+      <div>
+        <ul>
+          <li><a href="https://github.com/JoeKlesczewski/CompGeoUnity">Our GitHub with the latest work</a></li>
+          <li><a href="https://github.com/CompGeoGroup2191">Our org with this website's source code</a></li>
+        </ul>
+      </div>
+
+      
       <div class="headline font-weight-regular">Summary</div>
       <div>
         The purpose of this post is to summarize the work completed by our team for CSCI-716

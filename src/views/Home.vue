@@ -34,7 +34,7 @@ export default {
         {title: 'Overview', desc: 'Project description and background', linkTo: './#/about', gradient: 'rgba(25,32,72,.7)'},
         {title: 'Updates', desc: 'Regular updates on our progress', linkTo: './#/updates', gradient: 'rgba(25,72,35,.7)'}, 
         {title: 'About Us', desc: 'A little bit about us!', linkTo: './#/team', gradient: 'rgba(72,25,25,.7)'}, 
-        {title: 'GitHub', desc: 'Find us on GitHub', linkTo: 'https://github.com/CompGeoGroup2191/Realtime-Stylization-of-Softbody-Deformations', gradient: 'rgba(65,25,72,.7)'} 
+        {title: 'GitHub', desc: 'Find us on GitHub', linkTo: 'https://github.com/JoeKlesczewski/CompGeoUnity', gradient: 'rgba(65,25,72,.7)'} 
       ]
     };
   }
